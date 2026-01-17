@@ -8,3 +8,13 @@ operation = input("Entrez le symbole de votre operation!")
 if operation not in ["+","-","*","/"]
 if operation == "/" and nombre2 == "0"
 raise SystemExit("Cette operation est impossible")
+if operation == "+" :
+    resultats = nombre1 + nombre2
+elif operation == "-" :
+    resultats = nombre1 - nombre2
+elif operation == "*" : 
+    resultats = nombre1 * nombre2
+else operation =="/" :
+    resultats = nombre1 / nombre2
+    resultats = round(resultats, 3)
+    print(f"Le resultat est : {nombre1},{operation},{nombre2} ={resultats}")
