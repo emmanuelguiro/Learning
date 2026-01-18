@@ -16,4 +16,4 @@ elif operation == "*" :
 else :
     resultats = nombre1 / nombre2
     resultats = round(resultats, 3)
-    print(f"Le resultat est : {nombre1},{operation},{nombre2} ={resultats}")
+print(f"Le resultat est : {nombre1} {operation} {nombre2} = {resultats}")
